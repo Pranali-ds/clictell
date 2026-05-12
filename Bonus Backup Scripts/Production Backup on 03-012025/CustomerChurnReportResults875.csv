@@ -1,0 +1,103 @@
+Internal ID,Employee,Month,Year,Opening Balance,New Customers,Churn Customers,Closing Balance,Monthy Average Churn %,Half Yearly churn %,KPI Achievement %,Primary Month
+1801,Ericka,Sep,2024,3,0,0,3,0.0,,,Yes
+1802,Paul K,Sep,2024,9,2,0,11,0.0,,,Yes
+1803,Ericka,Oct,2024,3,8,0,11,0.0,,,No
+1804,Paul K,Oct,2024,11,0,0,11,0.0,,,No
+1805,Ericka,Nov,2024,11,0,0,11,0.0,,,No
+1806,Paul K,Nov,2024,11,5,0,16,0.0,,,No
+1807,Ericka,Dec,2024,11,1,0,12,0.0,0%,125%,No
+1808,Paul K,Dec,2024,16,2,0,18,0.0,0%,125%,No
+1809,Ericka,Jan,2025,12,2,0,14,0.0,,,No
+1810,Paul K,Jan,2025,18,1,0,19,0.0,,,No
+1811,Ericka,Feb,2025,14,1,0,15,0.0,,,No
+1812,Paul K,Feb,2025,19,0,0,19,0.0,,,No
+1813,Ericka,Mar,2025,15,0,1,14,0.07,,,No
+1814,Paul K,Mar,2025,19,0,0,19,0.0,,,No
+1815,Paul K,Apr,2025,19,0,0,19,0.0,,,No
+1816,Ericka,Apr,2025,14,0,0,14,0.0,,,No
+1817,Amanda Cutler,Sep,2024,11,1,0,12,0.0,,,Yes
+1818,Brandon Merced,Sep,2024,8,0,0,8,0.0,,,Yes
+1819,Christina Fedler,Sep,2024,3,1,0,4,0.0,,,Yes
+1820,Amanda Cutler,Oct,2024,12,0,0,12,0.0,,,No
+1821,Brandon Merced,Oct,2024,8,0,0,8,0.0,,,No
+1822,Christina Fedler,Oct,2024,4,0,0,4,0.0,,,No
+1823,Amanda Cutler,Nov,2024,12,4,0,16,0.0,,,No
+1824,Brandon Merced,Nov,2024,8,4,0,12,0.0,,,No
+1825,Christina Fedler,Nov,2024,4,1,0,5,0.0,,,No
+1826,Amanda Cutler,Dec,2024,16,1,0,17,0.0,0%,125%,No
+1827,Brandon Merced,Dec,2024,12,1,0,13,0.0,0%,125%,No
+1828,Christina Fedler,Dec,2024,5,0,0,5,0.0,0%,125%,No
+1829,Amanda Cutler,Jan,2025,17,1,0,18,0.0,,,No
+1830,Brandon Merced,Jan,2025,13,1,0,14,0.0,,,No
+1831,Christina Fedler,Jan,2025,5,0,0,5,0.0,,,No
+1832,Amanda Cutler,Feb,2025,18,2,0,20,0.0,,,No
+1833,Brandon Merced,Feb,2025,14,2,0,16,0.0,,,No
+1834,Christina Fedler,Feb,2025,5,3,0,8,0.0,,,No
+1835,Amanda Cutler,Mar,2025,20,0,0,20,0.0,,,No
+1836,Brandon Merced,Mar,2025,16,0,0,16,0.0,,,No
+1837,Christina Fedler,Mar,2025,8,1,0,9,0.0,,,No
+1838,Amanda Cutler,Apr,2025,20,0,0,20,0.0,,,No
+1839,Brandon Merced,Apr,2025,16,0,0,16,0.0,,,No
+1840,Christina Fedler,Apr,2025,9,2,0,11,0.0,,,No
+1841,Amanda Cutler,May,2025,20,3,0,23,0.0,,,No
+1842,Brandon Merced,May,2025,16,0,0,16,0.0,,,No
+1843,Christina Fedler,May,2025,11,0,0,11,0.0,,,No
+1844,Ericka,May,2025,14,0,0,14,0.0,,,No
+1845,Paul K,May,2025,19,0,0,19,0.0,,,No
+1846,Paul K,June,2025,19,0,1,18,0.05,0.01%,125%,No
+1847,Ericka,June,2025,14,0,0,14,0.0,0.01%,125%,No
+1848,Christina Fedler,June,2025,11,0,0,11,0.0,0%,125%,No
+1849,Brandon Merced,June,2025,16,0,1,15,0.06,0.01%,125%,No
+1850,Amanda Cutler,June,2025,23,0,0,23,0.0,0%,125%,No
+1851,Amanda Cutler,July,2025,23,1,1,23,0.04,,,No
+1852,Brandon Merced,July,2025,15,0,0,15,0.0,,,No
+1853,Christina Fedler,July,2025,11,0,0,11,0.0,,,No
+1854,Ericka,July,2025,14,2,1,15,0.07,,,No
+1855,Paul K,July,2025,18,0,2,16,0.11,,,No
+1856,Paul K,Aug,2025,16,0,0,16,0.0,,,No
+1857,Ericka,Aug,2025,15,0,0,15,0.0,,,No
+1858,Christina Fedler,Aug,2025,11,0,0,11,0.0,,,No
+1859,Brandon Merced,Aug,2025,15,0,0,15,0.0,,,No
+1860,Amanda Cutler,Aug,2025,23,0,0,23,0.0,,,No
+1861,Ericka,Sep,2025,15,0,0,15,0.0,,,No
+1862,Paul K,Sep,2025,16,0,0,16,0.0,,,No
+1863,Christina Fedler,Sep,2025,11,1,3,9,0.27,,,No
+1864,Brandon Merced,Sep,2025,15,0,0,15,0.0,,,No
+1865,Amanda Cutler,Sep,2025,23,0,0,23,0.0,,,No
+1866,Paul K,Oct,2025,16,0,0,16,0.0,,,No
+1867,Ericka,Oct,2025,15,0,8,7,0.53,,,No
+1868,Brandon Merced,Oct,2025,15,0,0,15,0.0,,,No
+1869,Amanda Cutler,Oct,2025,23,0,0,23,0.0,,,No
+1870,Christina Fedler,Oct,2025,9,0,0,9,0.0,,,No
+1871,Paul Feder,Sep,2024,0,0,0,0,0%,,,Yes
+1872,Paul Feder,Oct,2024,0,0,0,0,0%,,,No
+1873,Paul Feder,Nov,2024,0,0,0,0,0%,,,No
+1874,Paul Feder,Dec,2024,0,0,0,0,0%,,,No
+1875,Paul Feder,Jan,2025,0,0,0,0,0%,,,No
+1876,Paul Feder,Feb,2025,0,0,0,0,0%,,,No
+1877,Paul Feder,Mar,2025,0,0,0,0,0%,,,No
+1878,Paul Feder,Apr,2025,0,0,0,0,0%,,,No
+1879,Paul Feder,May,2025,0,0,0,0,0%,,,No
+1880,Paul Feder,June,2025,0,0,0,0,0%,,,No
+1881,Paul Feder,July,2025,0,0,0,0,0%,,,No
+1882,Paul Feder,Aug,2025,0,0,0,0,0%,,,No
+1883,Paul Feder,Sep,2025,0,0,0,0,0%,,,No
+1884,Paul Feder,Oct,2025,0,0,0,0,0%,,,No
+1885,Ericka,Nov,2025,7,0,2,5,0.29,,,No
+1886,Christina Fedler,Nov,2025,9,1,0,10,0.0,,,No
+1887,Brandon Merced,Nov,2025,15,0,1,14,0.07,,,No
+1888,Amanda Cutler,Nov,2025,23,0,1,22,0.04,,,No
+1901,Paul Feder,Nov,2025,0,0,0,0,0%,,,No
+1902,Paul K,Nov,2025,16,0,0,16,0.0,,,No
+2401,Amanda Cutler,Dec,2025,0,0,0,0,0.0,,,No
+2402,Brandon Merced,Dec,2025,0,0,0,0,0.0,,,No
+2403,Christina Fedler,Dec,2025,0,0,0,0,0.0,,,No
+2404,Ericka,Dec,2025,0,0,0,0,0.0,,,No
+2405,Paul Feder,Dec,2025,0,0,0,0,0.0,,,No
+2406,Paul K,Dec,2025,0,0,0,0,0.0,,,No
+2501,Amanda Cutler,Jan,2026,0,0,0,0,0.0,,,No
+2502,Brandon Merced,Jan,2026,0,0,0,0,0.0,,,No
+2503,Christina Fedler,Jan,2026,0,0,0,0,0.0,,,No
+2504,Ericka,Jan,2026,0,0,0,0,0.0,,,No
+2505,Paul Feder,Jan,2026,0,0,0,0,0.0,,,No
+2506,Paul K,Jan,2026,0,0,0,0,0.0,,,No

@@ -1,0 +1,37 @@
+Internal ID,Employee,Month,Year,Total Revenue for the Month,New Customers Revenue,Customers Prior 2 Months Revenue,Month End Revenue,H1/H2,KPI Achievement %
+1,Paul K,Dec,2024,33891.71,12040.85,3373.10,18477.76,H2,0 %
+2,Paul K,Jan,2025,41571.87,3003.92,8898.88,29669.07,H1,
+3,Ericka,Dec,2024,46624.50,.00,42202.00,4422.50,H2,0 %
+4,Ericka,Jan,2025,53929.01,9280.01,.00,44649.00,H1,
+101,Paul K,Jan,2024,7096.54,.00,.00,7096.54,H1,
+102,Paul K,July,2024,10100.92,.00,2332.00,7768.92,H2,
+103,Paul K,June,2024,8790.24,2300.58,.00,6489.66,H1,0 %
+104,Ericka,July,2024,2048.00,.00,.00,2048.00,H2,
+105,Ericka,June,2024,4922.50,2874.50,.00,2048.00,H1,0%
+201,Christina Fedler,Jan,2025,16454.70,.00,1516.30,14938.40,H1,
+202,Brandon Merced,Jan,2025,20389.03,3003.92,1186.60,16198.51,H1,
+203,Amanda Cutler,Jan,2025,11469.90,.00,5809.65,5660.25,H1,
+301,Ericka,July,2025,78477.10,.00,.00,78477.10,H2,
+302,Ericka,June,2025,80263.10,.00,.00,80263.10,H1,125 %
+303,Christina Fedler,July,2025,40967.90,.00,.00,40967.90,H2,
+304,Christina Fedler,June,2025,40067.90,.00,5822.80,34245.10,H1,125 %
+305,Brandon Merced,July,2025,25320.64,.00,.00,25320.64,H2,
+306,Brandon Merced,June,2025,28409.10,.00,.00,28409.10,H1,125 %
+307,Amanda Cutler,July,2025,22969.05,.00,.00,22969.05,H2,
+308,Amanda Cutler,June,2025,25255.00,.00,.00,25255.00,H1,125 %
+602,Amanda Cutler,Jan,2024,.00,.00,.00,.00,H1,
+603,Amanda Cutler,June,2024,.00,.00,.00,.00,H1,0%
+604,Amanda Cutler,July,2024,.00,.00,.00,.00,H2,
+605,Amanda Cutler,Dec,2024,.00,.00,.00,.00,H2,0%
+606,Brandon Merced,Jan,2024,.00,.00,.00,.00,H1,
+607,Brandon Merced,June,2024,.00,.00,.00,.00,H1,0%
+608,Brandon Merced,July,2024,.00,.00,.00,.00,H2,
+609,Brandon Merced,Dec,2024,.00,.00,.00,.00,H2,0%
+610,Christina Fedler,Jan,2024,.00,.00,.00,.00,H1,
+611,Christina Fedler,June,2024,.00,.00,.00,.00,H1,0%
+612,Christina Fedler,July,2024,.00,.00,.00,.00,H2,
+613,Christina Fedler,Dec,2024,.00,.00,.00,.00,H2,0%
+614,Ericka,Jan,2024,.00,.00,.00,.00,H1,
+615,Paul K,June,2025,.00,.00,.00,.00,H2,0 %
+616,Paul K,July,2025,.00,.00,.00,.00,H2,
+,Total,,,599018.71,32503.78,71141.33,495373.60,,

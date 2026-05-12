@@ -1,0 +1,60 @@
+Internal ID,Internal ID,External ID,Employee,Year,Month,H1/ H2,Client Name,Parent Client,POST Onboarding  CSAT (If available),Half - Yearly CSAT Score,Avg. for a Client,Common Client Average,CSM Average,KPI Achievement %,Static Weighted Avg
+210,210,CSAT047,Amanda Cutler,2025,Dec,H2,Simply Ride,Simply Ride,0,4,4,,4,75%,
+209,209,CSAT046,Amanda Cutler,2025,Dec,H2,Brothers Powersports,Brothers Powersports,0,5,5,,4,75%,
+205,205,CSAT042,Amanda Cutler,2025,Dec,H2,KPS Selma,Kent Powersports of Selma,0,4,4,,4,75%,
+208,208,CSAT045,Amanda Cutler,2025,Dec,H2,MotoNation of Memphis,Motonation of Memphis,0,3,3,,4,75%,
+211,211,CSAT048,Amanda Cutler,2025,Dec,H2,Sun & Fun Motorsports,Sun and Fun Motorsports,0,3,3,,4,75%,
+213,213,CSAT050,Amanda Cutler,2025,Dec,H2,Antelope Valley HD,Antelope Valley Harley Davidson,0,5,5,,4,75%,
+212,212,CSAT049,Amanda Cutler,2025,Dec,H2,Coleman Powersports,Coleman Powersports-Falls Church,0,4,4,,4,75%,
+206,206,CSAT043,Amanda Cutler,2025,Dec,H2,Nielsen,Nielsen's Enterprises,0,5,5,,4,75%,
+207,207,CSAT044,Amanda Cutler,2025,Dec,H2,Maximum Powersports,Maximum Powersports,0,4,4,,4,75%,
+201,201,CSAT041,Amanda Cutler,2025,Dec,H2,KPS Austin,Kent Powersports of Austin,0,3,3,,4,75%,
+220,220,CSAT057,Brandon Merced,2025,June,H1,Hanksters,Hankster's Motorsports,0,4,4,,4,75%,9
+222,222,CSAT059,Brandon Merced,2025,June,H1,Black Label Marine (x3),Black Label Marine,0,4,4,,4,75%,9
+215,215,CSAT052,Brandon Merced,2025,June,H1,Northwoods HD,Northwoods Harley-Davidson,0,3,3,,4,75%,9
+218,218,CSAT055,Brandon Merced,2025,June,H1,Conlon Motorsports Fort McMurray,Conlon Motorsports Fort McMurray,0,4,4,,4,75%,9
+219,219,CSAT056,Brandon Merced,2025,June,H1,Can-Am of North GA,Can-Am of North GA,0,5,5,,4,75%,9
+221,221,CSAT058,Brandon Merced,2025,June,H1,Speed Nation Powersports Inc.,SpeedNation Powersports,3,3,3,,4,75%,9
+217,217,CSAT054,Brandon Merced,2025,June,H1,Conlon Motorsports Leduc,Conlon Motorsports Leduc,0,5,5,,4,75%,9
+216,216,CSAT053,Brandon Merced,2025,June,H1,Conlon Motorsports St. Albert,Conlon Motorsports St. Albert,0,4,4,,4,75%,9
+214,214,CSAT051,Brandon Merced,2025,June,H1,Neessen Outdoors*,Neessen Outdoors of Kingsville,0,4,4,,4,75%,9
+200,200,CSAT040,Christina Fedler,2025,Dec,H2,Riverside Marine,Riverside Marine,4,4,4,,3.4125,-25%,
+195,195,CSAT035,Christina Fedler,2025,Dec,H2,Natchez,Natchez Powerspots,0,3.5,3.5,,3.4125,-25%,
+193,193,CSAT033,Christina Fedler,2025,Dec,H2,Brookhaven,Brookhaven Powersports,0,0,0,,3.4125,-25%,
+194,194,CSAT034,Christina Fedler,2025,Dec,H2,Hattiesburg,Hattiesburg Cycles,0,4,4,,3.4125,-25%,
+192,192,CSAT032,Christina Fedler,2025,Dec,H2,Cross Country Powersports,Cross Country Powersports,3.5,4,3.75,,3.4125,-25%,
+197,197,CSAT037,Christina Fedler,2025,Dec,H2,Harley-Davidson of Madison,Harley-Davidson of Madison,3.5,4,3.75,,3.4125,-25%,
+191,191,CSAT031,Christina Fedler,2025,Dec,H2,Cross Country Cycle,Cross Country Cycle,3.5,4,3.75,,3.4125,-25%,
+198,198,CSAT038,Christina Fedler,2025,Dec,H2,St Charles Boat & Motor,St. Charles Boat & Motor,3,4,3.5,,3.4125,-25%,
+199,199,CSAT039,Christina Fedler,2025,Dec,H2,Riverside Motorsports,Riverside Motosports,4,4,4,,3.4125,-25%,
+196,196,CSAT036,Christina Fedler,2025,Dec,H2,Ridgeline Motorsports,Ridgeline Motorsports,3.75,4,3.875,,3.4125,-25%,
+162,162,CSAT002,Danielle Maag,2025,June,H1,Ken's Sports Inc,"Ken's Sports, Inc.",0,4,4,4.25,4.24,75%,5
+161,161,CSAT001,Danielle Maag,2025,June,H1,Ken's Sports GB,"Ken's Sports, Inc.",0,4.5,4.5,4.25,4.24,75%,5
+165,165,CSAT005,Danielle Maag,2025,June,H1,Williams HD,Williams Harley Davidson,0,4.5,4.5,,4.24,75%,5
+163,163,CSAT003,Danielle Maag,2025,June,H1,Garden State PS,Williams Harley Davidson : Garden State Powersports,0,4,4,,4.24,75%,5
+164,164,CSAT004,Danielle Maag,2025,June,H1,Indianapolis Southside HD,Indianapolis Southside Harley Davidson,0,4.2,4.2,,4.24,75%,5
+180,180,CSAT020,Ericka,2025,June,H1,Starved Rock KTM,Windy City- Starved Rock HD,0,3.9,3.9,4.3,4.198,75%,25
+181,181,CSAT021,Ericka,2025,June,H1,Starved Rock HD,Windy City- Starved Rock HD,0,4.7,4.7,4.3,4.198,75%,25
+186,186,CSAT026,Ericka,2025,June,H1,"Woodstock KTM, Triumph",Windy City- WOODSTOCK HD,0,4.3,4.3,4.25,4.198,75%,25
+187,187,CSAT027,Ericka,2025,June,H1,Woodstock HD,Windy City- WOODSTOCK HD,0,4.2,4.2,4.25,4.198,75%,25
+173,173,CSAT013,Ericka,2025,June,H1,Lake Shore HD,Windy City- Lakeshore Harley Davidson,0,4.5,4.5,,4.198,75%,25
+168,168,CSAT008,Ericka,2025,June,H1,Illinois HD,Windy City- Illinois Harley Davidson,0,4.5,4.5,,4.198,75%,25
+171,171,CSAT011,Ericka,2025,June,H1,Johnny K's Lodi,Johnny K's Powersports,4,3.5,3.75,3.9375,4.198,75%,25
+169,169,CSAT009,Ericka,2025,June,H1,Johnny K's Bedford,Johnny K's Powersports,4,4.1,4.05,3.9375,4.198,75%,25
+172,172,CSAT012,Ericka,2025,June,H1,Johnny K's Niles,Johnny K's Powersports,4,4.1,4.05,3.9375,4.198,75%,25
+177,177,CSAT017,Ericka,2025,June,H1,Maddies- Ithaca,Maddies Motorsports : Maddie's Motor Sports - Dansville,4.2,4.2,4.2,4.3,4.198,75%,25
+182,182,CSAT022,Ericka,2025,June,H1,Suffolk County HD,Suffolk County Harley Davidson,0,3.5,3.5,,4.198,75%,25
+179,179,CSAT019,Ericka,2025,June,H1,Milwaukee HD,Windy City- Milwaukee Harley Davidson,0,4.5,4.5,,4.198,75%,25
+188,188,CSAT028,Ericka,2025,June,H1,Dvorak Motorsports,Dvorak Motorsports,4.2,4.8,4.5,,4.198,75%,25
+175,175,CSAT015,Ericka,2025,June,H1,Maddies- Farmington,Maddies Motorsports : Maddie's Motor Sports - Dansville,4.2,4.2,4.2,4.3,4.198,75%,25
+185,185,CSAT025,Ericka,2025,June,H1,Wild Fire HD,Windy City- Wildfire Harley Davidson,0,4.1,4.1,,4.198,75%,25
+189,189,CSAT029,Ericka,2025,June,H1,Pete's Cycles - Baltimore,Pete's Cycle - Baltimore,4.5,5,4.75,4.75,4.198,75%,25
+190,190,CSAT030,Ericka,2025,June,H1,Pete's Cycles - Severna Park,Pete's Cycle - Baltimore,4.5,5,4.75,4.75,4.198,75%,25
+166,166,CSAT006,Ericka,2025,June,H1,Energy Powersports,Energy Powersports,0,4.1,4.1,,4.198,75%,25
+184,184,CSAT024,Ericka,2025,June,H1,West Bend HD,Windy City- West Bend Harley Davidson,0,4.2,4.2,,4.198,75%,25
+178,178,CSAT018,Ericka,2025,June,H1,Maddies- Spencerport,Maddies Motorsports : Maddie's Motor Sports - Dansville,4.2,4.4,4.3,4.3,4.198,75%,25
+167,167,CSAT007,Ericka,2025,June,H1,Fort Kent Powersports,Fort Kent Powersports,0,4,4,,4.198,75%,25
+183,183,CSAT023,Ericka,2025,June,H1,Triumph Detroit,Windy City- Triumph Detroit,0,3.2,3.2,,4.198,75%,25
+170,170,CSAT010,Ericka,2025,June,H1,Johnny K's Elyria,Johnny K's Powersports,4,3.8,3.9,3.9375,4.198,75%,25
+174,174,CSAT014,Ericka,2025,June,H1,Maddies- Danville,Maddies Motorsports : Maddie's Motor Sports - Dansville,4.2,4.7,4.45,4.3,4.198,75%,25
+176,176,CSAT016,Ericka,2025,June,H1,Maddies- Hamburg,Maddies Motorsports : Maddie's Motor Sports - Dansville,4.2,4.5,4.35,4.3,4.198,75%,25

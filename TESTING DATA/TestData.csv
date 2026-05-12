@@ -1,0 +1,91 @@
+﻿External ID,Employee,Month,Year,Opening Balance,New Customers,Churn Customers,Closing Balance,Monthy Average Churn %,Half Yearly churn %,KPI Achievement %,H1/ H2,Primary Month
+CHURN_001,Ericka,Sep,2024,0,0,0,0,0%,,,H2,Yes
+CHURN_002,Paul K,Sep,2024,0,2,0,0,0%,,,H2,Yes
+CHURN_003,Ericka,Oct,2024,0,8,0,8,0%,,,H2,No
+CHURN_004,Paul K,Oct,2024,0,0,0,0,0%,,,H2,No
+CHURN_005,Ericka,Nov,2024,8,0,0,8,0%,,,H2,No
+CHURN_006,Paul K,Nov,2024,0,5,0,0,0%,,,H2,No
+CHURN_007,Ericka,Dec,2024,8,1,0,9,0%,3.13%,100%,H2,No
+CHURN_008,Paul K,Dec,2024,9,2,0,0,0%,0.00%,125%,H2,No
+CHURN_009,Ericka,Jan,2025,9,2,0,11,0%,,,H1,No
+CHURN_010,Paul K,Jan,2025,11,1,0,0,0%,,,H1,No
+CHURN_011,Ericka,Feb,2025,11,1,0,12,0%,,,H1,No
+CHURN_012,Paul K,Feb,2025,12,0,0,0,0%,,,H1,No
+CHURN_013,Ericka,Mar,2025,12,0,1,11,8.33%,,,H1,No
+CHURN_014,Paul K,Mar,2025,12,0,0,0,0%,,,H1,No
+CHURN_015,Paul K,Apr,2025,12,0,0,0,0%,,,H1,No
+CHURN_016,Ericka,Apr,2025,11,0,0,11,0%,,,H1,No
+CHURN_017,Amanda Cutler,Sep,2024,0,1,0,1,0%,,,H2,Yes
+CHURN_018,Brandon Merced,Sep,2024,0,0,0,0,0%,,,H2,Yes
+CHURN_019,Christina Fedler,Sep,2024,0,1,0,1,0%,,,H2,Yes
+CHURN_020,Amanda Cutler,Oct,2024,1,0,0,1,0%,,,H2,No
+CHURN_021,Brandon Merced,Oct,2024,0,0,0,0,0%,,,H2,No
+CHURN_022,Christina Fedler,Oct,2024,1,0,0,1,0%,,,H2,No
+CHURN_023,Amanda Cutler,Nov,2024,1,4,0,5,0%,,,H2,No
+CHURN_024,Brandon Merced,Nov,2024,0,4,0,4,0%,,,H2,No
+CHURN_025,Christina Fedler,Nov,2024,1,1,0,2,0%,,,H2,No
+CHURN_026,Amanda Cutler,Dec,2024,5,1,0,6,0%,0.00%,125%,H2,No
+CHURN_027,Brandon Merced,Dec,2024,4,1,0,5,0%,0.00%,125%,H2,No
+CHURN_028,Christina Fedler,Dec,2024,2,0,0,2,0%,0.00%,125%,H2,No
+CHURN_029,Amanda Cutler,Jan,2025,6,1,0,7,0%,,,H1,No
+CHURN_030,Brandon Merced,Jan,2025,5,1,0,6,0%,,,H1,No
+CHURN_031,Christina Fedler,Jan,2025,2,0,0,2,0%,,,H1,No
+CHURN_032,Amanda Cutler,Feb,2025,7,2,0,9,0%,,,H1,No
+CHURN_033,Brandon Merced,Feb,2025,6,2,0,8,0%,,,H1,No
+CHURN_034,Christina Fedler,Feb,2025,2,3,0,5,0%,,,H1,No
+CHURN_035,Amanda Cutler,Mar,2025,9,0,0,9,0%,,,H1,No
+CHURN_036,Brandon Merced,Mar,2025,8,0,0,8,0%,,,H1,No
+CHURN_037,Christina Fedler,Mar,2025,5,1,0,6,0%,,,H1,No
+CHURN_038,Amanda Cutler,Apr,2025,9,0,0,9,0%,,,H1,No
+CHURN_039,Brandon Merced,Apr,2025,8,0,0,8,0%,,,H1,No
+CHURN_040,Christina Fedler,Apr,2025,6,2,0,8,0%,,,H1,No
+CHURN_041,Amanda Cutler,May,2025,9,3,0,12,0%,,,H1,No
+CHURN_042,Brandon Merced,May,2025,8,0,0,8,0%,,,H1,No
+CHURN_043,Christina Fedler,May,2025,8,0,0,8,0%,,,H1,No
+CHURN_044,Ericka,May,2025,11,0,0,11,0%,,,H1,No
+CHURN_045,Paul K,May,2025,12,0,1,12,8.33%,,,H1,No
+CHURN_046,Paul K,June,2025,12,0,1,11,8.33%,277.66%,0%,H1,No
+CHURN_047,Ericka,June,2025,11,0,0,11,0%,138.83%,0%,H1,No
+CHURN_048,Christina Fedler,June,2025,8,0,0,8,0%,0.00%,125%,H1,No
+CHURN_049,Brandon Merced,June,2025,8,0,1,7,12.50%,208.33%,0%,H1,No
+CHURN_050,Amanda Cutler,June,2025,12,0,0,12,0%,0.00%,125%,H1,No
+CHURN_051,Amanda Cutler,July,2025,12,1,1,12,8.33%,,,H2,No
+CHURN_052,Brandon Merced,July,2025,7,0,0,7,0%,,,H2,No
+CHURN_053,Christina Fedler,July,2025,8,0,0,8,0%,,,H2,No
+CHURN_054,Ericka,July,2025,11,2,1,12,9.09%,,,H2,No
+CHURN_055,Paul K,July,2025,11,0,2,9,18.18%,,,H2,No
+CHURN_056,Paul K,Aug,2025,9,0,0,9,0%,,,H2,No
+CHURN_057,Ericka,Aug,2025,12,0,0,12,0%,,,H2,No
+CHURN_058,Christina Fedler,Aug,2025,8,0,0,8,0%,,,H2,No
+CHURN_059,Brandon Merced,Aug,2025,7,0,0,7,0%,,,H2,No
+CHURN_060,Amanda Cutler,Aug,2025,12,0,0,12,0%,,,H2,No
+CHURN_061,Ericka,Sep,2025,12,0,0,12,0%,,,H2,No
+CHURN_062,Paul K,Sep,2025,9,0,0,9,0%,,,H2,No
+CHURN_063,Christina Fedler,Sep,2025,8,1,3,6,37.50%,,,H2,No
+CHURN_064,Brandon Merced,Sep,2025,7,0,0,7,0%,,,H2,No
+CHURN_065,Amanda Cutler,Sep,2025,12,0,0,12,0%,,,H2,No
+CHURN_066,Paul K,Oct,2025,9,0,8,0,88.89%,,,H2,No
+CHURN_067,Ericka,Oct,2025,12,0,8,4,66.67%,,,H2,No
+CHURN_068,Brandon Merced,Oct,2025,7,0,0,7,0%,,,H2,No
+CHURN_069,Amanda Cutler,Oct,2025,12,0,0,12,0%,,,H2,No
+CHURN_070,Christina Fedler,Oct,2025,6,0,0,6,0%,,,H2,No
+CHURN_071,Paul Feder,Sep,2024,0,0,0,0,0%,,,H2,Yes
+CHURN_072,Paul Feder,Oct,2024,0,0,0,0,0%,,,H2,No
+CHURN_073,Paul Feder,Nov,2024,0,0,0,0,0%,,,H2,No
+CHURN_074,Paul Feder,Dec,2024,0,0,0,0,0%,0.00%,125%,H2,No
+CHURN_075,Paul Feder,Jan,2025,0,0,0,0,0%,,,H1,No
+CHURN_076,Paul Feder,Feb,2025,0,0,0,0,0%,,,H1,No
+CHURN_077,Paul Feder,Mar,2025,0,0,0,0,0%,,,H1,No
+CHURN_078,Paul Feder,Apr,2025,0,0,0,0,0%,,,H1,No
+CHURN_079,Paul Feder,May,2025,0,0,0,0,0%,,,H1,No
+CHURN_080,Paul Feder,June,2025,0,0,0,0,0%,0%,125%,H1,No
+CHURN_081,Paul Feder,July,2025,0,0,0,0,0%,,,H2,No
+CHURN_082,Paul Feder,Aug,2025,0,0,0,0,0%,,,H2,No
+CHURN_083,Paul Feder,Sep,2025,0,0,0,0,0%,,,H2,No
+CHURN_084,Paul Feder,Oct,2025,0,0,0,0,0%,,,H2,No
+CHURN_085,Ericka,Nov,2025,4,0,4,0,100%,,,H2,No
+CHURN_086,Christina Fedler,Nov,2025,6,0,5,1,83.33%,,,H2,No
+CHURN_087,Brandon Merced,Nov,2025,7,0,8,0,114.29%,,,H2,No
+CHURN_088,Amanda Cutler,Nov,2025,12,0,11,1,91.67%,,,H2,No
+CHURN_089,Paul Feder,Nov,2025,0,0,0,0,0%,,,H2,No
+CHURN_090,Paul K,Nov,2025,0,0,0,0,0%,,,H2,No

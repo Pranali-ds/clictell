@@ -1,0 +1,21 @@
+Internal ID,Employee,Year,H1/ H2,Customer Churn %,CSAT Score %,Revenue Upsell %,Weighted Average %
+101,Paul K,2024,H2,125%,0%,0%,31.25%
+102,Ericka,2024,H2,125%,0%,0%,31.25%
+201,Paul K,2024,H1,0%,0%,0%,0.00%
+202,Paul K,2025,H1,125%,0%,0%,31.25%
+203,Ericka,2024,H1,0%,0%,0%,0.00%
+204,Ericka,2025,H1,125%,75%,125%,112.50%
+205,Christina Fedler,2025,H1,125%,0%,125%,93.75%
+206,Brandon Merced,2025,H1,125%,75%,125%,112.50%
+207,Amanda Cutler,2025,H1,125%,0%,125%,93.75%
+301,Amanda Cutler,2025,H2,,75%,,18.75%
+401,Paul Feder,2025,H1,125%,0%,0%,31.25%
+402,Paul Feder,2024,H2,125%,0%,0%,31.25%
+403,Christina Fedler,2024,H2,125%,0%,0%,31.25%
+404,Brandon Merced,2024,H2,125%,0%,0%,31.25%
+405,Amanda Cutler,2024,H2,125%,0%,0%,31.25%
+406,Danielle Maag,2024,H2,125%,0%,0%,31.25%
+501,Paul K,2025,H2,0%,0%,0%,0.00%
+502,Christina Fedler,2024,H1,0%,0%,0%,0.00%
+503,Brandon Merced,2024,H1,0%,0%,0%,0.00%
+504,Amanda Cutler,2024,H1,0%,0%,0%,0.00%

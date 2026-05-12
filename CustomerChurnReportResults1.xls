@@ -1,0 +1,1237 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+<DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+<Author>NetSuite</Author>
+<LastAuthor>NetSuite</LastAuthor>
+<Company>NetSuite</Company>
+</DocumentProperties>
+<Styles>
+<Style ss:ID="company">
+<Alignment ss:Horizontal="Center"/>
+<Font ss:Bold="1"/>
+</Style> <Style ss:ID="error">
+<Alignment ss:Horizontal="Center"/>
+<Interior ss:Color="#d04040" ss:Pattern="Solid"/>
+<Font ss:Bold="1"/>
+</Style> <Style ss:ID="header">
+<Alignment ss:Horizontal="Center"/>
+<Font ss:Size="7" ss:Bold="1"/>
+<Interior ss:Color="#d0d0d0" ss:Pattern="Solid"/>
+</Style> <Style ss:ID="Default" ss:Name="Normal">
+<Alignment ss:Vertical="Bottom"/>
+<Borders/>
+<Font ss:FontName="Arial" ss:Size="8"/>
+<Interior/>
+<NumberFormat/>
+<Protection/>
+</Style>
+<Style ss:ID="s__TIMEOFDAY"><NumberFormat ss:Format="Medium Time"/></Style>
+<Style ss:ID="s__DATETIME"><NumberFormat ss:Format="General Date"/></Style>
+<Style ss:ID="s__DATETIMETZ"><NumberFormat ss:Format="General Date"/></Style>
+<Style ss:ID="s__DATE"><NumberFormat ss:Format="Short Date"/>
+</Style><Style ss:ID="s__text"></Style><Style ss:ID="s__currency"><NumberFormat ss:Format="Currency"/></Style>
+<Style ss:ID="s__percent"><NumberFormat ss:Format="Percent"/></Style>
+<Style ss:ID="s1_b_text"><Alignment ss:Indent="1"/><Font ss:FontName="Verdana" x:Family="Swiss" ss:Size="8" ss:Color="#000000" ss:Bold="1"/></Style>
+<Style ss:ID="s_b_text"><Font ss:FontName="Verdana" x:Family="Swiss" ss:Size="8" ss:Color="#000000" ss:Bold="1"/></Style>
+<Style ss:ID="s2__text"><Alignment ss:Indent="2"/></Style>
+<Style ss:ID="s_b_currency"><Font ss:FontName="Verdana" x:Family="Swiss" ss:Size="8" ss:Color="#000000" ss:Bold="1"/><NumberFormat ss:Format="Currency"/></Style>
+<Style ss:ID="s_currency_nosymbol"><Font ss:FontName="Verdana" x:Family="Swiss" ss:Size="8" ss:Color="#000000" /><NumberFormat ss:Format="#,##0.00_);[Red]\(#,##0.00\)"/></Style>
+<Style ss:ID="s1__text"><Alignment ss:Indent="1"/></Style>
+<Style ss:ID="s_b_currency_X"><Font ss:FontName="Verdana" x:Family="Swiss" ss:Size="8" ss:Color="#000000" ss:Bold="1"/><Interior ss:Color="#f0e0e0" ss:Pattern="Solid"/><NumberFormat ss:Format="Currency"/></Style>
+<Style ss:ID="s__currency_fr_FR_EURO"><Alignment ss:Vertical="Center" ss:Horizontal="Right"/><NumberFormat ss:Format="&quot;€&quot;#,##0.00_);(&quot;€&quot;#,##0.00)"/></Style>
+<Style ss:ID="s__currency_en_US"><Alignment ss:Vertical="Center" ss:Horizontal="Right"/><NumberFormat ss:Format="&quot;$&quot;#,##0.00_);(&quot;$&quot;#,##0.00)"/></Style>
+<Style ss:ID="s__currency_en_CA"><Alignment ss:Vertical="Center" ss:Horizontal="Right"/><NumberFormat ss:Format="&quot;Can$&quot;#,##0.00_);(&quot;Can$&quot;#,##0.00)"/></Style>
+<Style ss:ID="s__currency_en_GB"><Alignment ss:Vertical="Center" ss:Horizontal="Right"/><NumberFormat ss:Format="&quot;£&quot;#,##0.00_);(&quot;£&quot;#,##0.00)"/></Style>
+</Styles>
+<Worksheet ss:Name="CustomerChurnReportResults">
+<Table><Row>
+<Cell ss:StyleID="header"><Data ss:Type="String">Internal ID</Data></Cell>
+<Cell ss:StyleID="header"><Data ss:Type="String">Employee</Data></Cell>
+<Cell ss:StyleID="header"><Data ss:Type="String">Month</Data></Cell>
+<Cell ss:StyleID="header"><Data ss:Type="String">Year</Data></Cell>
+<Cell ss:StyleID="header"><Data ss:Type="String">Opening Balance</Data></Cell>
+<Cell ss:StyleID="header"><Data ss:Type="String">New Customers</Data></Cell>
+<Cell ss:StyleID="header"><Data ss:Type="String">Churn Customers</Data></Cell>
+<Cell ss:StyleID="header"><Data ss:Type="String">Closing Balance</Data></Cell>
+<Cell ss:StyleID="header"><Data ss:Type="String">Monthy Average Churn %</Data></Cell>
+<Cell ss:StyleID="header"><Data ss:Type="String">Half Yearly churn %</Data></Cell>
+<Cell ss:StyleID="header"><Data ss:Type="String">KPI Achievement %</Data></Cell>
+<Cell ss:StyleID="header"><Data ss:Type="String">Primary Month</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">1801</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Ericka</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Sep</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">2024</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">0%</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Yes</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">1802</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Paul K</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Sep</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">2024</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">2</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">0%</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Yes</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">1803</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Ericka</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Oct</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">2024</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">8</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">8</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">0%</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">No</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">1804</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Paul K</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Oct</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">2024</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">0%</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">No</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">1805</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Ericka</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Nov</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">2024</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">8</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">8</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">0%</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">No</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">1806</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Paul K</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Nov</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">2024</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">5</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">0%</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">No</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">1807</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Ericka</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Dec</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">2024</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">8</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">1</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">9</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">0%</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">3.13%</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">100%</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">No</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">1808</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Paul K</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Dec</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">2024</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">9</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">2</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">0%</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">0.00%</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">125%</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">No</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">1809</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Ericka</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jan</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">9</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">2</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">11</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">0%</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">No</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">1810</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Paul K</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jan</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">11</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">1</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">0%</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">No</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">1811</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Ericka</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Feb</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">11</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">1</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">12</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">0%</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">No</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">1812</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Paul K</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Feb</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">12</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">0%</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">No</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">1813</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Ericka</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Mar</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">12</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">1</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">11</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">8.33%</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">No</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">1814</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Paul K</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Mar</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">12</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">0%</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">No</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">1815</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Paul K</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Apr</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">12</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">0%</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">No</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">1816</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Ericka</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Apr</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">11</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">11</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">0%</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">No</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">1817</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Amanda Cutler</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Sep</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">2024</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">1</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">1</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">0%</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Yes</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">1818</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Brandon Merced</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Sep</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">2024</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">0%</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Yes</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">1819</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Christina Fedler</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Sep</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">2024</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">1</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">1</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">0%</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Yes</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">1820</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Amanda Cutler</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Oct</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">2024</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">1</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">1</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">0%</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">No</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">1821</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Brandon Merced</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Oct</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">2024</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">0%</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">No</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">1822</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Christina Fedler</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Oct</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">2024</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">1</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">1</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">0%</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">No</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">1823</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Amanda Cutler</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Nov</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">2024</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">1</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">4</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">5</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">0%</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">No</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">1824</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Brandon Merced</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Nov</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">2024</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">4</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">4</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">0%</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">No</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">1825</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Christina Fedler</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Nov</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">2024</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">1</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">1</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">2</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">0%</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">No</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">1826</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Amanda Cutler</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Dec</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">2024</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">5</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">1</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">6</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">0%</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">0.00%</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">125%</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">No</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">1827</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Brandon Merced</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Dec</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">2024</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">4</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">1</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">5</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">0%</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">0.00%</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">125%</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">No</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">1828</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Christina Fedler</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Dec</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">2024</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">2</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">2</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">0%</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">0.00%</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">125%</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">No</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">1829</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Amanda Cutler</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jan</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">6</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">1</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">7</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">0%</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">No</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">1830</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Brandon Merced</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jan</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">5</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">1</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">6</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">0%</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">No</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">1831</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Christina Fedler</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jan</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">2</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">2</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">0%</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">No</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">1832</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Amanda Cutler</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Feb</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">7</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">2</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">9</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">0%</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">No</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">1833</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Brandon Merced</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Feb</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">6</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">2</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">8</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">0%</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">No</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">1834</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Christina Fedler</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Feb</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">2</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">3</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">5</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">0%</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">No</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">1835</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Amanda Cutler</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Mar</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">9</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">9</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">0%</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">No</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">1836</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Brandon Merced</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Mar</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">8</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">8</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">0%</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">No</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">1837</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Christina Fedler</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Mar</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">5</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">1</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">6</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">0%</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">No</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">1838</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Amanda Cutler</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Apr</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">9</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">9</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">0%</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">No</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">1839</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Brandon Merced</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Apr</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">8</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">8</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">0%</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">No</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">1840</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Christina Fedler</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Apr</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">6</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">2</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">8</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">0%</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">No</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">1841</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Amanda Cutler</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">May</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">9</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">3</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">12</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">0%</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">No</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">1842</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Brandon Merced</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">May</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">8</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">8</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">0%</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">No</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">1843</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Christina Fedler</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">May</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">8</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">8</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">0%</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">No</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">1844</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Ericka</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">May</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">11</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">11</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">0%</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">No</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">1845</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Paul K</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">May</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">12</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">12</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">0.00%</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">No</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">1846</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Paul K</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">June</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">12</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">1</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">11</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">8.33%</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">1.38%</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">100%</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">No</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">1847</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Ericka</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">June</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">11</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">11</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">0%</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">1.38%</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">0%</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">No</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">1848</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Christina Fedler</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">June</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">8</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">8</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">0%</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">0.00%</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">125%</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">No</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">1849</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Brandon Merced</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">June</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">8</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">1</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">7</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">12.50%</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">2.08%</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">100%</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">No</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">1850</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Amanda Cutler</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">June</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">12</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">12</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">0%</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">0.00%</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">125%</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">No</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">1851</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Amanda Cutler</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">July</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">12</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">1</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">1</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">12</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">8.33%</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">No</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">1852</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Brandon Merced</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">July</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">7</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">7</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">0%</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">No</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">1853</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Christina Fedler</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">July</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">8</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">8</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">0%</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">No</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">1854</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Ericka</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">July</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">11</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">2</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">1</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">12</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">9.09%</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">No</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">1855</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Paul K</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">July</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">11</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">2</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">9</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">18.18%</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">No</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">1856</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Paul K</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Aug</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">9</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">9</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">0.00%</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">No</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">1857</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Ericka</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Aug</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">12</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">12</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">0%</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">No</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">1858</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Christina Fedler</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Aug</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">8</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">8</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">0%</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">No</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">1859</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Brandon Merced</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Aug</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">7</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">7</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">0%</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">No</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">1860</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Amanda Cutler</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Aug</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">12</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">12</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">0%</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">No</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">1861</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Ericka</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Sep</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">12</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">12</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">0%</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">No</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">1862</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Paul K</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Sep</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">9</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">9</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">0.00%</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">No</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">1863</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Christina Fedler</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Sep</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">8</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">1</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">3</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">6</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">37.50%</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">No</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">1864</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Brandon Merced</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Sep</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">7</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">7</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">0%</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">No</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">1865</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Amanda Cutler</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Sep</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">12</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">12</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">0%</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">No</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">1866</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Paul K</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Oct</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">7</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">7</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">0.0</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">No</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">1867</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Ericka</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Oct</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">12</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">8</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">4</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">66.67</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">No</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">1868</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Brandon Merced</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Oct</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">7</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">7</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">0.0</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">No</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">1869</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Amanda Cutler</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Oct</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">13</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">13</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">0.0</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">No</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">1870</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Christina Fedler</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Oct</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">7</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">7</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">0.0</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">No</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">1871</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Paul Feder</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Sep</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">2024</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">0%</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Yes</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">1872</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Paul Feder</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Oct</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">2024</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">0%</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">No</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">1873</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Paul Feder</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Nov</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">2024</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">0%</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">No</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">1874</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Paul Feder</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Dec</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">2024</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">0%</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">0.00%</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">125%</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">No</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">1875</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Paul Feder</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jan</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">0%</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">No</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">1876</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Paul Feder</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Feb</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">0%</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">No</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">1877</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Paul Feder</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Mar</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">0%</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">No</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">1878</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Paul Feder</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Apr</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">0%</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">No</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">1879</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Paul Feder</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">May</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">0%</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">No</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">1880</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Paul Feder</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">June</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">0%</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">0.00%</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">125%</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">No</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">1881</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Paul Feder</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">July</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">0%</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">No</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">1882</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Paul Feder</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Aug</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">0%</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">No</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">1883</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Paul Feder</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Sep</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">0%</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">No</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">1884</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Paul Feder</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Oct</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">0.0</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">No</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">1885</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Ericka</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Nov</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">4</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">2</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">50%</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">No</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">1886</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Christina Fedler</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Nov</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">6</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">6</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">0%</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">No</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">1887</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Brandon Merced</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Nov</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">7</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">1</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">6</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">14.28%</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">No</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">1888</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Amanda Cutler</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Nov</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">12</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">1</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">11</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">8.33%</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">No</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">1901</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Paul Feder</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Nov</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">0.0</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">No</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">1902</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Paul K</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Nov</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">7</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">7</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">0.0</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">No</Data></Cell>
+</Row>
+</Table>
+</Worksheet>
+</Workbook>
